@@ -112,7 +112,7 @@ async function displayCardsDynamically() {
 
       // Attach the new card to the container
       document.getElementById("hikes-go-here").appendChild(newcard);
-    };);
+    });
   } catch (error) {
     console.error("Error getting documents: ", error);
   }
